@@ -1,0 +1,5 @@
+f1=open("img_01.jpeg","rb")
+f2=open("img_02.jpeg","wb")
+bytes=f1.read()
+f2.write(bytes)
+print("new image created with :img_02.jpg")
